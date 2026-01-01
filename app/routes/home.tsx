@@ -1,13 +1,17 @@
+import { Button } from "~/components/ui/button";
 import type { Route } from "./+types/home";
-import { Welcome } from "../welcome/welcome";
 
 export function meta({}: Route.MetaArgs) {
   return [
-    { title: "New React Router App" },
-    { name: "description", content: "Welcome to React Router!" },
+    { title: "Cryptos" },
+    { name: "Crypto Screener", content: "Welcome to Crypto Screener" },
   ];
 }
 
 export default function Home() {
-  return <Welcome />;
+  return (
+    <div>
+      <Button className="bg-blue-600">Click Me</Button>
+    </div>
+  );
 }
