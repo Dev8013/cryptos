@@ -1,5 +1,6 @@
 import { Button } from "~/components/ui/button";
 import type { Route } from "./+types/home";
+import Navbar from "~/components/Navbar";
 
 export function meta({}: Route.MetaArgs) {
   return [
@@ -11,7 +12,7 @@ export function meta({}: Route.MetaArgs) {
 export default function Home() {
   return (
     <div>
-      <Button className="bg-blue-600">Click Me</Button>
+      <Navbar />
     </div>
   );
 }
