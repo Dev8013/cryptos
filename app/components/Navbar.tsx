@@ -5,7 +5,7 @@ import { Search } from 'lucide-react'
 
 const Navbar = () => {
   return (
-    <nav className='flex text-white bg-gray-950 p-4 items-center justify-between'>
+    <nav className='flex text-white bg-[#0F1316] p-4 items-center justify-between'>
        <div>
         {/* replace with logo */}
             <p className='font-bold text-lg'>Cryptos</p>
@@ -21,7 +21,7 @@ const Navbar = () => {
         <div className='flex gap-2'>
             <Link to='/'><Button className='cursor-pointer'>Home</Button></Link>
             <Link to='/'><Button className='cursor-pointer'>Search Model</Button></Link>
-            <Link to='/'><Button className='cursor-pointer'>All Cryptos</Button></Link>
+            <Link to='/cryptos'><Button className='cursor-pointer'>All Cryptos</Button></Link>
         </div>
     </nav>
   )
