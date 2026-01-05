@@ -22,7 +22,7 @@ const Navbar = () => {
             <Link to='/'><Button className='cursor-pointer'>Home</Button></Link>
             <Link to='/'><Button className='cursor-pointer'>Search Model</Button></Link>
             <Link to='/'><Button className='cursor-pointer'>All Cryptos</Button></Link>
-        </div> 
+        </div>
     </nav>
   )
 }
